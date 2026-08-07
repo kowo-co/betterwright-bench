@@ -1,7 +1,7 @@
 {
   "1.6.3": {
-    "coldWall_med": 967.73,
-    "coldWall_p90": 1023.35,
+    "coldWall_med": 1270.91,
+    "coldWall_p90": 1320.69,
     "nav_med": null,
     "nav_p90": null,
     "dom_med": null,
@@ -9,12 +9,12 @@
     "snap_med": null,
     "snap_p90": null,
     "snapBytes_med": null,
-    "failures": 24,
-    "peakRssMiB": 740.7
+    "failures": 0,
+    "peakRssMiB": 743.1
   },
   "1.7.0": {
-    "coldWall_med": 3692.56,
-    "coldWall_p90": 3814.54,
+    "coldWall_med": 3855.05,
+    "coldWall_p90": 3895.36,
     "nav_med": null,
     "nav_p90": null,
     "dom_med": null,
@@ -22,7 +22,7 @@
     "snap_med": null,
     "snap_p90": null,
     "snapBytes_med": null,
-    "failures": 24,
-    "peakRssMiB": 40
+    "failures": 0,
+    "peakRssMiB": 39.9
   }
 }

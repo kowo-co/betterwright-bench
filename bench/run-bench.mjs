@@ -62,7 +62,7 @@ const WARM_SNIPPET =
   `const title=await page.title(); const links=await page.locator('a').count(); const t2=Date.now();` +
   `const snap=await snapshot({interactive:true}); const t3=Date.now();` +
   `const bytes=(typeof snap==='string'?snap:JSON.stringify(snap)).length;` +
-  `return {navMs:+(t1-t0).toFixed(2), domMs:+(t2-t1).toFixed(2), snapMs:+(t3-t2).toFixed(2), snapBytes:bytes, links, title};`;
+  `return {navMs:t1-t0, domMs:t2-t1, snapMs:t3-t2, snapBytes:bytes, links, title};`;
 
 // RSS sampler: sum resident set size (KB) of every process whose args reference this home.
 function sampleRssKB(homePath) {
