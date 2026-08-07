@@ -1,0 +1,391 @@
+{
+  "url": "https://example.com/",
+  "N": 12,
+  "iso": "2026-08-07T07:16:30.101Z",
+  "versions": {
+    "v163": {
+      "label": "1.6.3",
+      "cold": [
+        {
+          "i": 0,
+          "ok": false,
+          "wallMs": 947.27,
+          "navMs": null
+        },
+        {
+          "i": 1,
+          "ok": false,
+          "wallMs": 920.91,
+          "navMs": null
+        },
+        {
+          "i": 2,
+          "ok": false,
+          "wallMs": 938.01,
+          "navMs": null
+        },
+        {
+          "i": 3,
+          "ok": false,
+          "wallMs": 987.7,
+          "navMs": null
+        },
+        {
+          "i": 4,
+          "ok": false,
+          "wallMs": 967.73,
+          "navMs": null
+        },
+        {
+          "i": 5,
+          "ok": false,
+          "wallMs": 1008.76,
+          "navMs": null
+        },
+        {
+          "i": 6,
+          "ok": false,
+          "wallMs": 1138.32,
+          "navMs": null
+        },
+        {
+          "i": 7,
+          "ok": false,
+          "wallMs": 940.89,
+          "navMs": null
+        },
+        {
+          "i": 8,
+          "ok": false,
+          "wallMs": 952.38,
+          "navMs": null
+        },
+        {
+          "i": 9,
+          "ok": false,
+          "wallMs": 983,
+          "navMs": null
+        },
+        {
+          "i": 10,
+          "ok": false,
+          "wallMs": 995.42,
+          "navMs": null
+        },
+        {
+          "i": 11,
+          "ok": false,
+          "wallMs": 1023.35,
+          "navMs": null
+        }
+      ],
+      "warm": [
+        {
+          "i": 0,
+          "ok": false,
+          "wallMs": 111.11,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 1,
+          "ok": false,
+          "wallMs": 97.63,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 2,
+          "ok": false,
+          "wallMs": 104.5,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 3,
+          "ok": false,
+          "wallMs": 97.94,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 4,
+          "ok": false,
+          "wallMs": 103.79,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 5,
+          "ok": false,
+          "wallMs": 104.78,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 6,
+          "ok": false,
+          "wallMs": 99.35,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 7,
+          "ok": false,
+          "wallMs": 94.74,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 8,
+          "ok": false,
+          "wallMs": 98.69,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 9,
+          "ok": false,
+          "wallMs": 101.75,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 10,
+          "ok": false,
+          "wallMs": 101.74,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 11,
+          "ok": false,
+          "wallMs": 95.14,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        }
+      ],
+      "failures": {
+        "cold": 12,
+        "warm": 12
+      },
+      "peakRssKB": 758444
+    },
+    "v170": {
+      "label": "1.7.0",
+      "cold": [
+        {
+          "i": 0,
+          "ok": false,
+          "wallMs": 3692.56,
+          "navMs": null
+        },
+        {
+          "i": 1,
+          "ok": false,
+          "wallMs": 3685.4,
+          "navMs": null
+        },
+        {
+          "i": 2,
+          "ok": false,
+          "wallMs": 3677.24,
+          "navMs": null
+        },
+        {
+          "i": 3,
+          "ok": false,
+          "wallMs": 3685.73,
+          "navMs": null
+        },
+        {
+          "i": 4,
+          "ok": false,
+          "wallMs": 3717.67,
+          "navMs": null
+        },
+        {
+          "i": 5,
+          "ok": false,
+          "wallMs": 3814.54,
+          "navMs": null
+        },
+        {
+          "i": 6,
+          "ok": false,
+          "wallMs": 3683.16,
+          "navMs": null
+        },
+        {
+          "i": 7,
+          "ok": false,
+          "wallMs": 3706.98,
+          "navMs": null
+        },
+        {
+          "i": 8,
+          "ok": false,
+          "wallMs": 3680.57,
+          "navMs": null
+        },
+        {
+          "i": 9,
+          "ok": false,
+          "wallMs": 3955.2,
+          "navMs": null
+        },
+        {
+          "i": 10,
+          "ok": false,
+          "wallMs": 3737.61,
+          "navMs": null
+        },
+        {
+          "i": 11,
+          "ok": false,
+          "wallMs": 3775.76,
+          "navMs": null
+        }
+      ],
+      "warm": [
+        {
+          "i": 0,
+          "ok": false,
+          "wallMs": 107.14,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 1,
+          "ok": false,
+          "wallMs": 109.43,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 2,
+          "ok": false,
+          "wallMs": 117,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 3,
+          "ok": false,
+          "wallMs": 121.8,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 4,
+          "ok": false,
+          "wallMs": 114.42,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 5,
+          "ok": false,
+          "wallMs": 110.27,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 6,
+          "ok": false,
+          "wallMs": 100.75,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 7,
+          "ok": false,
+          "wallMs": 101.32,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 8,
+          "ok": false,
+          "wallMs": 106,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 9,
+          "ok": false,
+          "wallMs": 110.03,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 10,
+          "ok": false,
+          "wallMs": 114.96,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        },
+        {
+          "i": 11,
+          "ok": false,
+          "wallMs": 109.93,
+          "navMs": null,
+          "domMs": null,
+          "snapMs": null,
+          "snapBytes": null
+        }
+      ],
+      "failures": {
+        "cold": 12,
+        "warm": 12
+      },
+      "peakRssKB": 40968
+    }
+  }
+}
