@@ -37,7 +37,7 @@ All times in **ms** unless noted. Lower is better for every row.
 | **Peak RSS** — driver + browser tree, one identical run (MiB) | 741.2 | **39.9** | **−94.6% (≈18.6×)** | **1.7.0** |
 | **Resident processes** during an active run | 8 (chrome) | **1 (obscura)** | −7 | **1.7.0** |
 
-¹ Cold start is reported two ways because they diverge sharply and mean different things. **Daemon boot** is the number Beckett actually experiences — `beckett browser` runs a persistent daemon, so the boot cost is paid once and then every op is warm. **`--no-daemon` one-shot** is the worst case for Obscura: it spins the resident engine up and tears it down inline for a single call. The whole one-shot penalty is engine boot, *not* page load — 1.7.0's cold *navigation* is actually faster (median 151 ms vs 213 ms); it's the ~3.7 s Obscura inline boot (vs ~1.1 s for Cloak) that dominates.
+¹ Cold start is reported two ways because they diverge sharply and mean different things. **Daemon boot** is the number Beckett actually experiences — `beckett browser` runs a persistent daemon, so the boot cost is paid once and then every op is warm. **`--no-daemon` one-shot** is the worst case for Obscura: it spins the resident engine up and tears it down inline for a single call. The whole one-shot penalty is engine boot, *not* page load — 1.7.0's cold *navigation* is actually faster (median 151 ms vs 210 ms); it's the ~3.7 s Obscura inline boot (vs ~1.1 s for Cloak) that dominates.
 
 ---
 
