@@ -1,7 +1,7 @@
 {
   "url": "https://example.com/",
   "N": 12,
-  "iso": "2026-08-07T07:18:42.736Z",
+  "iso": "2026-08-07T07:20:44.191Z",
   "versions": {
     "v163": {
       "label": "1.6.3",
@@ -9,191 +9,191 @@
         {
           "i": 0,
           "ok": true,
-          "wallMs": 1302.6,
-          "navMs": null
+          "wallMs": 1356.63,
+          "navMs": 256
         },
         {
           "i": 1,
           "ok": true,
-          "wallMs": 1302.63,
-          "navMs": null
+          "wallMs": 1303.03,
+          "navMs": 220
         },
         {
           "i": 2,
           "ok": true,
-          "wallMs": 1292.21,
-          "navMs": null
+          "wallMs": 1327.41,
+          "navMs": 260
         },
         {
           "i": 3,
           "ok": true,
-          "wallMs": 1237.15,
-          "navMs": null
+          "wallMs": 1327.09,
+          "navMs": 266
         },
         {
           "i": 4,
           "ok": true,
-          "wallMs": 1234.46,
-          "navMs": null
+          "wallMs": 1244.91,
+          "navMs": 196
         },
         {
           "i": 5,
           "ok": true,
-          "wallMs": 1266.74,
-          "navMs": null
+          "wallMs": 1268.5,
+          "navMs": 221
         },
         {
           "i": 6,
           "ok": true,
-          "wallMs": 1320.69,
-          "navMs": null
+          "wallMs": 1260.58,
+          "navMs": 209
         },
         {
           "i": 7,
           "ok": true,
-          "wallMs": 1222.69,
-          "navMs": null
+          "wallMs": 1248.15,
+          "navMs": 197
         },
         {
           "i": 8,
           "ok": true,
-          "wallMs": 1325.83,
-          "navMs": null
+          "wallMs": 1403.68,
+          "navMs": 210
         },
         {
           "i": 9,
           "ok": true,
-          "wallMs": 1319.03,
-          "navMs": null
+          "wallMs": 1281.56,
+          "navMs": 203
         },
         {
           "i": 10,
           "ok": true,
-          "wallMs": 1270.91,
-          "navMs": null
+          "wallMs": 1277.83,
+          "navMs": 230
         },
         {
           "i": 11,
           "ok": true,
-          "wallMs": 1264.4,
-          "navMs": null
+          "wallMs": 1234.23,
+          "navMs": 206
         }
       ],
       "warm": [
         {
           "i": 0,
           "ok": true,
-          "wallMs": 172.85,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 167.52,
+          "navMs": 48,
+          "domMs": 16,
+          "snapMs": 7,
+          "snapBytes": 93
         },
         {
           "i": 1,
           "ok": true,
-          "wallMs": 164.71,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 170.29,
+          "navMs": 41,
+          "domMs": 16,
+          "snapMs": 11,
+          "snapBytes": 93
         },
         {
           "i": 2,
           "ok": true,
-          "wallMs": 167.39,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 183.08,
+          "navMs": 50,
+          "domMs": 24,
+          "snapMs": 13,
+          "snapBytes": 93
         },
         {
           "i": 3,
           "ok": true,
-          "wallMs": 157.29,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 173.36,
+          "navMs": 44,
+          "domMs": 18,
+          "snapMs": 13,
+          "snapBytes": 93
         },
         {
           "i": 4,
           "ok": true,
-          "wallMs": 170.48,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 169.19,
+          "navMs": 40,
+          "domMs": 20,
+          "snapMs": 9,
+          "snapBytes": 93
         },
         {
           "i": 5,
           "ok": true,
-          "wallMs": 153.44,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 172.15,
+          "navMs": 53,
+          "domMs": 15,
+          "snapMs": 7,
+          "snapBytes": 93
         },
         {
           "i": 6,
           "ok": true,
-          "wallMs": 174.32,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 169,
+          "navMs": 42,
+          "domMs": 15,
+          "snapMs": 11,
+          "snapBytes": 93
         },
         {
           "i": 7,
           "ok": true,
-          "wallMs": 170.28,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 176.62,
+          "navMs": 42,
+          "domMs": 21,
+          "snapMs": 11,
+          "snapBytes": 93
         },
         {
           "i": 8,
           "ok": true,
-          "wallMs": 164.99,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 182.17,
+          "navMs": 55,
+          "domMs": 12,
+          "snapMs": 10,
+          "snapBytes": 93
         },
         {
           "i": 9,
           "ok": true,
-          "wallMs": 161.86,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 171.26,
+          "navMs": 46,
+          "domMs": 16,
+          "snapMs": 9,
+          "snapBytes": 93
         },
         {
           "i": 10,
           "ok": true,
-          "wallMs": 167.34,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 168.96,
+          "navMs": 43,
+          "domMs": 14,
+          "snapMs": 7,
+          "snapBytes": 93
         },
         {
           "i": 11,
           "ok": true,
-          "wallMs": 177.09,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 168.55,
+          "navMs": 50,
+          "domMs": 14,
+          "snapMs": 8,
+          "snapBytes": 93
         }
       ],
       "failures": {
         "cold": 0,
         "warm": 0
       },
-      "peakRssKB": 760884
+      "peakRssKB": 759024
     },
     "v170": {
       "label": "1.7.0",
@@ -201,191 +201,191 @@
         {
           "i": 0,
           "ok": true,
-          "wallMs": 4083.66,
-          "navMs": null
+          "wallMs": 3855.32,
+          "navMs": 142
         },
         {
           "i": 1,
           "ok": true,
-          "wallMs": 3871.79,
-          "navMs": null
+          "wallMs": 3835.72,
+          "navMs": 153
         },
         {
           "i": 2,
           "ok": true,
-          "wallMs": 3895.36,
-          "navMs": null
+          "wallMs": 3862.41,
+          "navMs": 159
         },
         {
           "i": 3,
           "ok": true,
-          "wallMs": 3819.53,
-          "navMs": null
+          "wallMs": 3887.05,
+          "navMs": 180
         },
         {
           "i": 4,
           "ok": true,
-          "wallMs": 3849.65,
-          "navMs": null
+          "wallMs": 3854.99,
+          "navMs": 146
         },
         {
           "i": 5,
           "ok": true,
-          "wallMs": 3883.24,
-          "navMs": null
+          "wallMs": 3838.08,
+          "navMs": 151
         },
         {
           "i": 6,
           "ok": true,
-          "wallMs": 3840.11,
-          "navMs": null
+          "wallMs": 3859.88,
+          "navMs": 185
         },
         {
           "i": 7,
           "ok": true,
-          "wallMs": 3856.58,
-          "navMs": null
+          "wallMs": 3853.09,
+          "navMs": 161
         },
         {
           "i": 8,
           "ok": true,
-          "wallMs": 3886.22,
-          "navMs": null
+          "wallMs": 3873.04,
+          "navMs": 151
         },
         {
           "i": 9,
           "ok": true,
-          "wallMs": 3855.05,
-          "navMs": null
+          "wallMs": 3945.96,
+          "navMs": 216
         },
         {
           "i": 10,
           "ok": true,
-          "wallMs": 3838.81,
-          "navMs": null
+          "wallMs": 3849.51,
+          "navMs": 149
         },
         {
           "i": 11,
           "ok": true,
-          "wallMs": 3853.78,
-          "navMs": null
+          "wallMs": 3843.72,
+          "navMs": 150
         }
       ],
       "warm": [
         {
           "i": 0,
           "ok": true,
-          "wallMs": 168.92,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 165.69,
+          "navMs": 41,
+          "domMs": 9,
+          "snapMs": 7,
+          "snapBytes": 78
         },
         {
           "i": 1,
           "ok": true,
-          "wallMs": 164.33,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 163.61,
+          "navMs": 37,
+          "domMs": 5,
+          "snapMs": 8,
+          "snapBytes": 78
         },
         {
           "i": 2,
           "ok": true,
-          "wallMs": 161.07,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 163.92,
+          "navMs": 36,
+          "domMs": 7,
+          "snapMs": 8,
+          "snapBytes": 78
         },
         {
           "i": 3,
           "ok": true,
-          "wallMs": 154.12,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 170.14,
+          "navMs": 37,
+          "domMs": 6,
+          "snapMs": 7,
+          "snapBytes": 78
         },
         {
           "i": 4,
           "ok": true,
-          "wallMs": 164.38,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 162.99,
+          "navMs": 40,
+          "domMs": 6,
+          "snapMs": 7,
+          "snapBytes": 78
         },
         {
           "i": 5,
           "ok": true,
-          "wallMs": 154.85,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 156.42,
+          "navMs": 33,
+          "domMs": 5,
+          "snapMs": 6,
+          "snapBytes": 78
         },
         {
           "i": 6,
           "ok": true,
-          "wallMs": 154.33,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 163.19,
+          "navMs": 34,
+          "domMs": 6,
+          "snapMs": 7,
+          "snapBytes": 78
         },
         {
           "i": 7,
           "ok": true,
-          "wallMs": 153.9,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 154.5,
+          "navMs": 36,
+          "domMs": 5,
+          "snapMs": 7,
+          "snapBytes": 78
         },
         {
           "i": 8,
           "ok": true,
-          "wallMs": 182.34,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 166.13,
+          "navMs": 40,
+          "domMs": 6,
+          "snapMs": 6,
+          "snapBytes": 78
         },
         {
           "i": 9,
           "ok": true,
-          "wallMs": 159.12,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 174.1,
+          "navMs": 36,
+          "domMs": 5,
+          "snapMs": 9,
+          "snapBytes": 78
         },
         {
           "i": 10,
           "ok": true,
-          "wallMs": 174.7,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 164.88,
+          "navMs": 40,
+          "domMs": 6,
+          "snapMs": 6,
+          "snapBytes": 78
         },
         {
           "i": 11,
           "ok": true,
-          "wallMs": 161.48,
-          "navMs": null,
-          "domMs": null,
-          "snapMs": null,
-          "snapBytes": null
+          "wallMs": 158.71,
+          "navMs": 33,
+          "domMs": 5,
+          "snapMs": 7,
+          "snapBytes": 78
         }
       ],
       "failures": {
         "cold": 0,
         "warm": 0
       },
-      "peakRssKB": 40876
+      "peakRssKB": 40828
     }
   }
 }

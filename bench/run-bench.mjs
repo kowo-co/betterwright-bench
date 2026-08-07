@@ -48,8 +48,9 @@ function bwRun(v, { snippet, noDaemon = false, session = SESSION }) {
       const wallMs = nowMs() - t0;
       let json = null;
       try { json = JSON.parse(out); } catch { /* keep null */ }
-      const ok = code === 0 && json && !json.error;
-      resolve({ ok, wallMs, json, stderr: err.trim(), code });
+      const res = json && json.result ? json.result : {};
+      const ok = code === 0 && json && json.ok === true && !json.error;
+      resolve({ ok, wallMs, json, res, stderr: err.trim(), code });
     });
   });
 }
@@ -95,8 +96,8 @@ async function main() {
     for (const v of VERSIONS) {
       const r = await bwRun(v, { snippet: COLD_SNIPPET, noDaemon: true });
       if (!r.ok) { raw.versions[v.key].failures.cold++; console.error(`  ! ${v.label} cold #${i} FAIL code=${r.code} ${r.stderr.slice(0,120)}`); }
-      raw.versions[v.key].cold.push({ i, ok: r.ok, wallMs: +r.wallMs.toFixed(2), navMs: r.json?.navMs ?? null });
-      process.stderr.write(`  ${v.label} cold #${i} wall=${r.wallMs.toFixed(0)}ms nav=${r.json?.navMs ?? 'x'}\n`);
+      raw.versions[v.key].cold.push({ i, ok: r.ok, wallMs: +r.wallMs.toFixed(2), navMs: r.res?.navMs ?? null });
+      process.stderr.write(`  ${v.label} cold #${i} wall=${r.wallMs.toFixed(0)}ms nav=${r.res?.navMs ?? 'x'}\n`);
     }
   }
 
@@ -104,7 +105,7 @@ async function main() {
   console.error(`\n== priming warm daemons ==`);
   for (const v of VERSIONS) {
     const r = await bwRun(v, { snippet: WARM_SNIPPET });
-    console.error(`  ${v.label} prime ok=${r.ok} nav=${r.json?.navMs ?? 'x'}`);
+    console.error(`  ${v.label} prime ok=${r.ok} nav=${r.res?.navMs ?? 'x'}`);
   }
 
   // ---- 2/3/4. WARM nav + DOM + snapshot, interleaved A/B ----
@@ -115,10 +116,10 @@ async function main() {
       if (!r.ok) { raw.versions[v.key].failures.warm++; console.error(`  ! ${v.label} warm #${i} FAIL code=${r.code} ${r.stderr.slice(0,120)}`); }
       raw.versions[v.key].warm.push({
         i, ok: r.ok, wallMs: +r.wallMs.toFixed(2),
-        navMs: r.json?.navMs ?? null, domMs: r.json?.domMs ?? null,
-        snapMs: r.json?.snapMs ?? null, snapBytes: r.json?.snapBytes ?? null,
+        navMs: r.res?.navMs ?? null, domMs: r.res?.domMs ?? null,
+        snapMs: r.res?.snapMs ?? null, snapBytes: r.res?.snapBytes ?? null,
       });
-      process.stderr.write(`  ${v.label} warm #${i} nav=${r.json?.navMs ?? 'x'} dom=${r.json?.domMs ?? 'x'} snap=${r.json?.snapMs ?? 'x'} bytes=${r.json?.snapBytes ?? 'x'}\n`);
+      process.stderr.write(`  ${v.label} warm #${i} nav=${r.res?.navMs ?? 'x'} dom=${r.res?.domMs ?? 'x'} snap=${r.res?.snapMs ?? 'x'} bytes=${r.res?.snapBytes ?? 'x'}\n`);
     }
   }
 
