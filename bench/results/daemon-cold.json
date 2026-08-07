@@ -1,0 +1,5 @@
+{
+  "metric": "daemon-boot cold start (close daemon, time first fresh --session call to first page loaded), wall ms, interleaved A/B",
+  "v163_ms": [1220, 1235, 1204, 1237, 1179, 1233],
+  "v170_ms": [1016, 1004, 1013, 1003, 979, 977]
+}
