@@ -1,0 +1,3284 @@
+{
+  "iso": "2026-08-20T18:54:47.627Z",
+  "N": 7,
+  "site": "http://127.0.0.1:8765",
+  "resolved": {
+    "v199": "1.9.9",
+    "v1100": "1.10.0"
+  },
+  "note": "1.10.0 also fixed a Windows-only BetterChromium launch bug — irrelevant on this Linux host.",
+  "tasks": {
+    "webagents_catalog": {
+      "label": "WebAgents catalog search→detail→highlight",
+      "synthetic": true,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10547.26,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10127.61,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 114.37,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 189.56,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 115.22,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10537.14,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10128.54,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 121.25,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 178.1,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 108.92,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10543.13,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10124.22,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 134.73,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 175.44,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 108.48,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10538.45,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10140.88,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 129.87,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 172.57,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 94.93,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10550.2,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10114.74,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 133.65,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 194.41,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 107.18,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10545.53,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10128.98,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 122.18,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 183.95,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 110.23,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 4,
+              "toolCalls": 4,
+              "wallMs": 10573.5,
+              "contextTokens": 72,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10135.7,
+                  "contextTokens": 40,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-search",
+                  "ok": true,
+                  "wallMs": 123.43,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 201.61,
+                  "contextTokens": 32,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-price",
+                  "ok": true,
+                  "wallMs": 112.54,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 12248.65,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 2006.62,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 10241.65,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10443.09,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10099.11,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 343.75,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10484.44,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10142.7,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 341.55,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10437.11,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10109.85,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 327.11,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10449.46,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10124.86,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 324.47,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10443.55,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10120.9,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 322.46,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10437.64,
+              "contextTokens": 310,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10116.31,
+                  "contextTokens": 310,
+                  "contextKinds": [
+                    "result.webagents"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 321.18,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        }
+      }
+    },
+    "local_form": {
+      "label": "Local multi-field RSVP form (semantic UI batch)",
+      "synthetic": true,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 10970.29,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10132.47,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 134.78,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 110.61,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 113.32,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 109.09,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 223.08,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 146.38,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 10900.73,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 10142.82,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 124.29,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 114.24,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 109.74,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 102.05,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 194.19,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 112.94,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 905.81,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 194.05,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 111.04,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 102.74,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 101.97,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 106.78,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 191.43,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 97.48,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 872.54,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 161.16,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 101.3,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 100.56,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 100.19,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 96.71,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 205.32,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 107.01,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 850.69,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 162.53,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 106.83,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 101.03,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 95.81,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 102.23,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 185.06,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 96.9,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 846,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 157.47,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 104.81,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 98.95,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 96.62,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 102.23,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 190.04,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 95.59,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 7,
+              "toolCalls": 7,
+              "wallMs": 898.52,
+              "contextTokens": 179,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 159.81,
+                  "contextTokens": 80,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 100.46,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 105.74,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "select-guests",
+                  "ok": true,
+                  "wallMs": 109.49,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-notes",
+                  "ok": true,
+                  "wallMs": 108.87,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 217.7,
+                  "contextTokens": 99,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 96.15,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 830.38,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 191.09,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 638.94,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 10853.38,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 10123.02,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 730.19,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 951.89,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 226.28,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 725.47,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1034,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 155.23,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 878.62,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 959.87,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 155.32,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 804.42,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 930.56,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 157.87,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 772.57,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 919.12,
+              "contextTokens": 141,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 154.83,
+                  "contextTokens": 141,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 764.17,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        }
+      }
+    },
+    "httpbin_form": {
+      "label": "httpbin multi-field form fill→submit",
+      "synthetic": false,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1873.94,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 682.29,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 100.59,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 96.07,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 107.12,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 125.69,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 110.88,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 95.02,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 99.86,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 360.83,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 95.1,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1455.94,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 271.95,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 98.16,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 100.56,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 96.66,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 111.38,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 116.04,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 95.75,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 98.35,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 369.75,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 96.88,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1506.73,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 270.41,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 97.75,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 99.78,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 94.16,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 100.43,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 98.59,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 96.81,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 104.57,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 447.29,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 96.49,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1597.85,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 430.64,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 100.77,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 104.62,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 95.82,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 111.51,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 97.88,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 100.86,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 96.84,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 364.82,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 93.68,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1851.39,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 603.66,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 104.27,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 103.31,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 102.38,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 104.87,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 116.31,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 101.91,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 102.61,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 419.53,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 92.04,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1494.86,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 280.33,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 97.85,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 99.18,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 99.95,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 108.84,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 98.61,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 105.49,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 101.09,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 408.39,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 94.65,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 10,
+              "toolCalls": 10,
+              "wallMs": 1551.07,
+              "contextTokens": 209,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 265.27,
+                  "contextTokens": 193,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "fill-name",
+                  "ok": true,
+                  "wallMs": 98.86,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-tel",
+                  "ok": true,
+                  "wallMs": 109.46,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "fill-email",
+                  "ok": true,
+                  "wallMs": 104.75,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "size",
+                  "ok": true,
+                  "wallMs": 117.07,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "topping",
+                  "ok": true,
+                  "wallMs": 117,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "delivery",
+                  "ok": true,
+                  "wallMs": 101.13,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "comments",
+                  "ok": true,
+                  "wallMs": 99.09,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit",
+                  "ok": true,
+                  "wallMs": 439.38,
+                  "contextTokens": 16,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "verify",
+                  "ok": true,
+                  "wallMs": 98.63,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 3106.79,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 1716.72,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1389.8,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1467.27,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 273.54,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1193.58,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1601.02,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 264.84,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1336.04,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1605.95,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 266.05,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1339.75,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1482.49,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 262.62,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1219.71,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1998.87,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 876.53,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1122.15,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1994.99,
+              "contextTokens": 329,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 278.14,
+                  "contextTokens": 329,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1716.64,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        }
+      }
+    },
+    "wiki_multipage": {
+      "label": "Wikipedia multi-page nav→read heading",
+      "synthetic": false,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 3935.83,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1833.03,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1987.2,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 115.4,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 3692.44,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1590.01,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1981.07,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 121.22,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 4138.41,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 2061.51,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1955.66,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 121.09,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 3680.7,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1593.63,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1976.34,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 110.61,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 3652.98,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1594.69,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1943.43,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 114.72,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 3730.65,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1632.87,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1978.71,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 118.95,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 3,
+              "toolCalls": 3,
+              "wallMs": 3663.81,
+              "contextTokens": 56917,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1568.09,
+                  "contextTokens": 27907,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "click-link",
+                  "ok": true,
+                  "wallMs": 1978.75,
+                  "contextTokens": 29010,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-heading",
+                  "ok": true,
+                  "wallMs": 116.84,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2840.03,
+              "contextTokens": 2054,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 1366.06,
+                  "contextTokens": 904,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1473.61,
+                  "contextTokens": 1150,
+                  "contextKinds": [
+                    "envelope.ui"
+                  ],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2002.23,
+              "contextTokens": 904,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 892.96,
+                  "contextTokens": 904,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1109.09,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2164.01,
+              "contextTokens": 904,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 770.06,
+                  "contextTokens": 904,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1393.78,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 3807.28,
+              "contextTokens": 1050,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 2658.05,
+                  "contextTokens": 1050,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1149.08,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2162.1,
+              "contextTokens": 904,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 752.87,
+                  "contextTokens": 904,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1409.03,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2162.64,
+              "contextTokens": 904,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 788.9,
+                  "contextTokens": 904,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1373.58,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2128.88,
+              "contextTokens": 904,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 743.24,
+                  "contextTokens": 904,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1385.45,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        }
+      }
+    },
+    "quotes_search_filter": {
+      "label": "quotes.toscrape search→tag filter→read quote",
+      "synthetic": false,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 3394.37,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1395.44,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 785.72,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 102.6,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 1007.14,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 102.72,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 3267.7,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 1053.93,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 1190.5,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 99.02,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 822.18,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 101.69,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 2409.63,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 668.17,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 753.73,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 101.58,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 789.47,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 96.43,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 2594.45,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 661.27,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 928.77,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 105.09,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 799.02,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 100.07,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 2534.16,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 679.69,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 778.5,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 96.76,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 882.79,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 96.19,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 2516.18,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 679.13,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 778.06,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 100.66,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 855.52,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 102.61,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 5,
+              "toolCalls": 5,
+              "wallMs": 2469.83,
+              "contextTokens": 1784,
+              "turnLogs": [
+                {
+                  "name": "open+snapshot",
+                  "ok": true,
+                  "wallMs": 718.44,
+                  "contextTokens": 498,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-author",
+                  "ok": true,
+                  "wallMs": 745.9,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "select-tag",
+                  "ok": true,
+                  "wallMs": 108.53,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                },
+                {
+                  "name": "submit-search",
+                  "ok": true,
+                  "wallMs": 796.64,
+                  "contextTokens": 643,
+                  "contextKinds": [
+                    "snapshot-uncapped"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "read-quote",
+                  "ok": true,
+                  "wallMs": 100.12,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "trials": [
+            {
+              "i": 0,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 3203.33,
+              "contextTokens": 917,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 1956.3,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1246.65,
+                  "contextTokens": 510,
+                  "contextKinds": [
+                    "envelope.ui"
+                  ],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 2675.83,
+              "contextTokens": 407,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 672.73,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 2002.92,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1935.18,
+              "contextTokens": 407,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 717.08,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1217.96,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1872.72,
+              "contextTokens": 407,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 632.12,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1240.4,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1932.2,
+              "contextTokens": 407,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 744.72,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1187.3,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1905.03,
+              "contextTokens": 407,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 640,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1264.87,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "ok": true,
+              "failReason": null,
+              "turns": 2,
+              "toolCalls": 2,
+              "wallMs": 1791.83,
+              "contextTokens": 407,
+              "turnLogs": [
+                {
+                  "name": "open",
+                  "ok": true,
+                  "wallMs": 659.95,
+                  "contextTokens": 407,
+                  "contextKinds": [
+                    "result.ui"
+                  ],
+                  "error": null
+                },
+                {
+                  "name": "batch",
+                  "ok": true,
+                  "wallMs": 1131.75,
+                  "contextTokens": 0,
+                  "contextKinds": [],
+                  "error": null
+                }
+              ]
+            }
+          ],
+          "failures": 0
+        }
+      }
+    }
+  }
+}

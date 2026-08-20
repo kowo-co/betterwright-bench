@@ -2,4 +2,6 @@ bench/pkg/
 bench/logs/
 bench/home163/
 bench/home170/
+bench/home199/
+bench/home1100/
 bench/results/*.raw
