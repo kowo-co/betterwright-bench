@@ -1,0 +1,541 @@
+{
+  "iso": "2026-08-20T18:54:47.627Z",
+  "N": 7,
+  "resolved": {
+    "v199": "1.9.9",
+    "v1100": "1.10.0"
+  },
+  "note": "1.10.0 also fixed a Windows-only BetterChromium launch bug — irrelevant on this Linux host.",
+  "tasks": {
+    "webagents_catalog": {
+      "label": "WebAgents catalog search→detail→highlight",
+      "synthetic": true,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 4,
+            "p10": 4,
+            "p90": 4,
+            "min": 4,
+            "max": 4,
+            "mean": 4
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 10545.53,
+            "p10": 10537.14,
+            "p90": 10573.5,
+            "min": 10537.14,
+            "max": 10573.5,
+            "mean": 10547.89
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 72,
+            "p10": 72,
+            "p90": 72,
+            "min": 72,
+            "max": 72,
+            "mean": 72
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 4,
+            "p10": 4,
+            "p90": 4,
+            "min": 4,
+            "max": 4,
+            "mean": 4
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 10545.53,
+            "p10": 10537.14,
+            "p90": 10573.5,
+            "min": 10537.14,
+            "max": 10573.5,
+            "mean": 10547.89
+          }
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 10443.55,
+            "p10": 10437.11,
+            "p90": 12248.65,
+            "min": 10437.11,
+            "max": 12248.65,
+            "mean": 10706.28
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 310,
+            "p10": 310,
+            "p90": 310,
+            "min": 310,
+            "max": 310,
+            "mean": 310
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 10443.55,
+            "p10": 10437.11,
+            "p90": 12248.65,
+            "min": 10437.11,
+            "max": 12248.65,
+            "mean": 10706.28
+          }
+        }
+      }
+    },
+    "local_form": {
+      "label": "Local multi-field RSVP form (semantic UI batch)",
+      "synthetic": true,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 7,
+            "p10": 7,
+            "p90": 7,
+            "min": 7,
+            "max": 7,
+            "mean": 7
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 898.52,
+            "p10": 846,
+            "p90": 10970.29,
+            "min": 846,
+            "max": 10970.29,
+            "mean": 3749.23
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 179,
+            "p10": 179,
+            "p90": 179,
+            "min": 179,
+            "max": 179,
+            "mean": 179
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 7,
+            "p10": 7,
+            "p90": 7,
+            "min": 7,
+            "max": 7,
+            "mean": 7
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 898.52,
+            "p10": 846,
+            "p90": 10970.29,
+            "min": 846,
+            "max": 10970.29,
+            "mean": 3749.23
+          }
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 951.89,
+            "p10": 830.38,
+            "p90": 10853.38,
+            "min": 830.38,
+            "max": 10853.38,
+            "mean": 2354.17
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 141,
+            "p10": 141,
+            "p90": 141,
+            "min": 141,
+            "max": 141,
+            "mean": 141
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 951.89,
+            "p10": 830.38,
+            "p90": 10853.38,
+            "min": 830.38,
+            "max": 10853.38,
+            "mean": 2354.17
+          }
+        }
+      }
+    },
+    "httpbin_form": {
+      "label": "httpbin multi-field form fill→submit",
+      "synthetic": false,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 10,
+            "p10": 10,
+            "p90": 10,
+            "min": 10,
+            "max": 10,
+            "mean": 10
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 1551.07,
+            "p10": 1455.94,
+            "p90": 1873.94,
+            "min": 1455.94,
+            "max": 1873.94,
+            "mean": 1618.83
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 209,
+            "p10": 209,
+            "p90": 209,
+            "min": 209,
+            "max": 209,
+            "mean": 209
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 10,
+            "p10": 10,
+            "p90": 10,
+            "min": 10,
+            "max": 10,
+            "mean": 10
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 1551.07,
+            "p10": 1455.94,
+            "p90": 1873.94,
+            "min": 1455.94,
+            "max": 1873.94,
+            "mean": 1618.83
+          }
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 1605.95,
+            "p10": 1467.27,
+            "p90": 3106.79,
+            "min": 1467.27,
+            "max": 3106.79,
+            "mean": 1893.91
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 329,
+            "p10": 329,
+            "p90": 329,
+            "min": 329,
+            "max": 329,
+            "mean": 329
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 1605.95,
+            "p10": 1467.27,
+            "p90": 3106.79,
+            "min": 1467.27,
+            "max": 3106.79,
+            "mean": 1893.91
+          }
+        }
+      }
+    },
+    "wiki_multipage": {
+      "label": "Wikipedia multi-page nav→read heading",
+      "synthetic": false,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 3,
+            "p10": 3,
+            "p90": 3,
+            "min": 3,
+            "max": 3,
+            "mean": 3
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 3692.44,
+            "p10": 3652.98,
+            "p90": 4138.41,
+            "min": 3652.98,
+            "max": 4138.41,
+            "mean": 3784.97
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 56917,
+            "p10": 56917,
+            "p90": 56917,
+            "min": 56917,
+            "max": 56917,
+            "mean": 56917
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 3,
+            "p10": 3,
+            "p90": 3,
+            "min": 3,
+            "max": 3,
+            "mean": 3
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 3692.44,
+            "p10": 3652.98,
+            "p90": 4138.41,
+            "min": 3652.98,
+            "max": 4138.41,
+            "mean": 3784.97
+          }
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 2162.64,
+            "p10": 2002.23,
+            "p90": 3807.28,
+            "min": 2002.23,
+            "max": 3807.28,
+            "mean": 2466.74
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 904,
+            "p10": 904,
+            "p90": 2054,
+            "min": 904,
+            "max": 2054,
+            "mean": 1089.14
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 2162.64,
+            "p10": 2002.23,
+            "p90": 3807.28,
+            "min": 2002.23,
+            "max": 3807.28,
+            "mean": 2466.74
+          }
+        }
+      }
+    },
+    "quotes_search_filter": {
+      "label": "quotes.toscrape search→tag filter→read quote",
+      "synthetic": false,
+      "versions": {
+        "v199": {
+          "label": "1.9.9",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 5,
+            "p10": 5,
+            "p90": 5,
+            "min": 5,
+            "max": 5,
+            "mean": 5
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 2534.16,
+            "p10": 2409.63,
+            "p90": 3394.37,
+            "min": 2409.63,
+            "max": 3394.37,
+            "mean": 2740.9
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 1784,
+            "p10": 1784,
+            "p90": 1784,
+            "min": 1784,
+            "max": 1784,
+            "mean": 1784
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 5,
+            "p10": 5,
+            "p90": 5,
+            "min": 5,
+            "max": 5,
+            "mean": 5
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 2534.16,
+            "p10": 2409.63,
+            "p90": 3394.37,
+            "min": 2409.63,
+            "max": 3394.37,
+            "mean": 2740.9
+          }
+        },
+        "v1100": {
+          "label": "1.10.0",
+          "failures": 0,
+          "successRate": "7/7",
+          "turns": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMs": {
+            "n": 7,
+            "median": 1932.2,
+            "p10": 1791.83,
+            "p90": 3203.33,
+            "min": 1791.83,
+            "max": 3203.33,
+            "mean": 2188.02
+          },
+          "contextTokens": {
+            "n": 7,
+            "median": 407,
+            "p10": 407,
+            "p90": 917,
+            "min": 407,
+            "max": 917,
+            "mean": 479.86
+          },
+          "toolCalls": {
+            "n": 7,
+            "median": 2,
+            "p10": 2,
+            "p90": 2,
+            "min": 2,
+            "max": 2,
+            "mean": 2
+          },
+          "wallMsAll": {
+            "n": 7,
+            "median": 1932.2,
+            "p10": 1791.83,
+            "p90": 3203.33,
+            "min": 1791.83,
+            "max": 3203.33,
+            "mean": 2188.02
+          }
+        }
+      }
+    }
+  }
+}
